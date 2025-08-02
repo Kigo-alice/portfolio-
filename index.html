@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty shop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header role="banner">
+    <h1>Welcome Radiant Bloom beaty shop</h1>
+    <nav role="navigation" aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about" aria-current="page">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main role="main">
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>Welcome to Radiant Bloom Beauty Shop,
+         your ultimate destination for all things beauty and self-care.
+          We specialize in premium skincare,
+           makeup, haircare, and wellness products designed to enhance your natural glow.
+            Whether you're looking for a bold new look, everyday essentials, or luxurious treatments,
+             our curated collection and expert advice make it easy to feel confident and radiant. At Radiant Bloom, beauty is more than just appearance
+              — it’s about feeling empowered, pampered, and uniquely you.</p>
+      <img src="RB.png" alt="Diagram showing Radiant Bloom logo" width="500"/>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Services</h2>
+      <article aria-labelledby="Skincare Consultations">
+        <h3 >Skincare Consultations</h3>
+        <p>Our beauty experts provide personalized skincare assessments to help you choose the best products for your skin type and concerns. Whether you're battling dryness, acne, or signs of aging, we guide you to a radiant, healthy glow.</p>
+      </article>
+      <article aria-labelledby="Makeup Application & Tutorials">
+        <h3 >Makeup Application & Tutorials</h3>
+        <p>From everyday looks to special occasions, our makeup artists offer professional application services and hands-on tutorials to help you master your desired look with confidence.</p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Me</h2>
+      <form action="#" method="POST" aria-label="Contact form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required aria-required="true" /><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required aria-required="true" /><br><br>
+
+        <label for="Request">Request:</label><br>
+        <textarea id="message" name="Request" required aria-required="true"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
